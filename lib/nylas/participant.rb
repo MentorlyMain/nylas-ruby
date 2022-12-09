@@ -8,6 +8,6 @@ module Nylas
     attribute :email, :string
     attribute :phone_number, :string
     attribute :comment, :string
-    attribute :status, :string, read_only: true
+    attribute :status, :string
   end
 end
